@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    
+    <!-- Internal CSS -->
+
+    <style>
+        body{
+            background-color: antiquewhite; 
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            font-style: italic;
+        }
+
+/*The CSS element Selector (Element(<p>tag) dore dore kaj korbe)*/ 
+        p{
+            text-align: right;
+            font-size: medium;
+        }
+
+/*The CSS id Selector (specific element, & (#) character)*/   
+        #para1{
+            text-align: center;
+            color: blue;
+        }
+
+/*The CSS class Selector(specific class attribute, & (.) character)*/   
+        .center{
+            text-align: center;
+            color: brown;
+        }
+    /*You can also specify that only specific HTML elements should be affected by a class.*/        
+        p.center{
+            font-size: large;
+        }
+    /*HTML elements can also refer to more than one class.*/  
+        h4.center {
+            text-align: center;
+            color: red;
+        }
+
+        h4.large {
+            font-size: 300%;
+        }
+
+/*The universal selector (*) selects all HTML elements on the page.*/
+        *{
+            background-color: rgb(238, 223, 248);
+        } 
+
+/*The CSS Grouping Selector*/
+        h6, h5{
+            text-align: left;
+            color: blue;
+            
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>My First CSS File</h1>
+    <p>This is CSC</p>
+    <p id="para1">This is Bangladesh</p>
+    <p>and me</p>
+    <h3 class="center">This heading will not be affected</h3>
+    <p class="center">This paragraph will be red and center-aligned.</p> 
+    <p class="center">This paragraph will be red and center-aligned.</p> 
+    <h4 class="center">This heading will not be affected</h4>
+    <h5>tets 1</h5>
+    <h6>test 2</h6>
+    
+</body>
+</html>
